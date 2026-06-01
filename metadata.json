@@ -1,0 +1,6 @@
+{
+  "name": "GATENexus",
+  "description": "Comprehensive roadmap, realistic study schedules, subject weightage guides, and self-evaluation tools for GATE aspirants targeting top ranks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
