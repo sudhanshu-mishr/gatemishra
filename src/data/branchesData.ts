@@ -528,6 +528,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Mathematical modeling of physical systems. Feed-back loops, transient stability, root loci, frequency responses, industrial controller compensators.',
+        videoId: 'XMfH2P2Fc6Q',
         isHighROI: true
       },
       {
@@ -967,6 +968,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'System feedback equations, block diagrams, signal flow graph analysis, stability limits, controller configurations (P, PI, PID tuning).',
+        videoId: 'HcLYoCmWOjI',
         isHighROI: true
       }
     ]
