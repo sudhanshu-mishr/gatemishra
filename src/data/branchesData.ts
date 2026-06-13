@@ -39,6 +39,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Covers mathematical logic, set theory, relations, combinatorics, graph theory, algebraic structures, and matrix algebra. Serves as the foundation for algorithms and theory of computation.',
+        videoId: '_ZYrnN8NUfE',
         isHighROI: true
       },
       {
@@ -51,6 +52,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Programming in C, recursion, arrays, stacks, queues, linked lists, trees (binary trees, binary search trees, AVL trees), and graphs. Highly scoring and straightforward with practice.',
+        videoId: 's-SjRRR2EAc',
         isHighROI: true
       },
       {
@@ -63,6 +65,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Searching, sorting, hashing. Asymptotic worst/average case time and space complexity. Algorithm design techniques: greedy, dynamic programming, and divide-and-conquer. Graph traversals.',
+        videoId: 'kq8u6rpbpnU',
         isHighROI: true
       },
       {
@@ -75,6 +78,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Double-advantage',
         description: 'Regular expressions and finite automata. Context-free grammars and push-down automata. Regular and context-free languages. Turing machines and undecidability. Extremely structured and highly scoring.',
+        videoId: 'kFzEd6hfKtM',
         isHighROI: true
       },
       {
@@ -87,6 +91,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Processes, threads, CPU scheduling. Concurrency and synchronization (semaphores, monitors, mutexes). Deadlock handling. Memory management and virtual memory. File systems.',
+        videoId: '2BayPOKpXiw',
         isHighROI: true
       },
       {
@@ -99,6 +104,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Machine instructions and addressing modes. ALU, data-path and control unit. Instruction pipelining (hazards, performance). Memory hierarchy: cache memory, main memory, and virtual memory. I/O interface.',
+        videoId: 'Ol8D69VKX2k',
         isHighROI: false
       },
       {
@@ -111,6 +117,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'Medium',
         type: 'Scoring',
         description: 'ER-model. Relational model: relational algebra, tuple calculus, SQL. Integrity constraints, normal forms (1NF, 2NF, 3NF, BCNF). Transactions and concurrency control.',
+        videoId: 'T7AxM7Vqvaw',
         isHighROI: true
       },
       {
@@ -123,6 +130,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Concept of layering (OSI & TCP/IP models). Flow and error control. IP addressing, routing. TCP/UDP, transport layer controls. Application layer protocols. Network security.',
+        videoId: 'WB8n1-HOs_M',
         isHighROI: false
       },
       {
@@ -135,6 +143,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'Medium',
         type: 'Scoring',
         description: 'Boolean algebra, minimization of functions. Combinational circuits: multiplexers, decoders, adders. Sequential circuits: latches, flip-flops, registers, counters.',
+        videoId: 'xDARFvArIpc',
         isHighROI: true
       },
       {
@@ -147,6 +156,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'Medium',
         type: 'Double-advantage',
         description: 'Lexical analysis, parsing, syntax-directed translation. Runtime environments. Intermediate code generation and local optimization. Directly connected with TOC concepts.',
+        videoId: '7Tq2Amm15g8',
         isHighROI: true
       }
     ]
@@ -188,6 +198,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Nodal and mesh analysis. Network theorems (Superposition, Thevenin, Norton, Reciprocity, Maximum Power Transfer). First and second-order transient responses. Two-port networks.',
+        videoId: 'wO-f7l9l-E0',
         isHighROI: true
       },
       {
@@ -200,6 +211,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Double-advantage',
         description: 'Continuous-time and discrete-time signals. LTI systems: properties, causality, stability. Fourier series and transform. Laplace transform, z-transform. Sampling theorem.',
+        videoId: 'HZqGqx9dd30',
         isHighROI: true
       },
       {
@@ -212,6 +224,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'Medium',
         type: 'Scoring',
         description: 'Number representations. Logic gates and minimization. Multiplexers, decoders. Latches and flip-flops, registers, counters. ADC and DAC converters. Semiconductor memories.',
+        videoId: 'INEtYZqtjTo',
         isHighROI: true
       },
       {
@@ -224,6 +237,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Diode circuits, BJT/Biasing. Small-signal equivalent models. FET/MOSFET circuits. Operational amplifiers: configurations, feedback, frequency responses, active filters. Oscillators.',
+        videoId: 'f7oXhDatwtY',
         isHighROI: false
       },
       {
@@ -236,6 +250,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Energy bands in silicon. Carrier transport: diffusion, drift, mobility. Generation and recombination. P-N junction, Zener diode, BJT, MOS capacitor, MOSFET, LED, photodiode.',
+        videoId: 'ZiL0PKCU1p4',
         isHighROI: false
       },
       {
@@ -248,6 +263,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Feedback principles. Transfer functions. Block diagram reduction, signal flow graphs. Transient response, steady-state errors. Routh-Hurwitz, Root locus. Nyquist and Bode plots.',
+        videoId: 'XMfH2P2Fc6Q',
         isHighROI: true
       },
       {
@@ -260,6 +276,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Amplitude, angle modulation. Superheterodyne receivers. Information theory, entropy. PCM, DPCM, ASK, FSK, PSK. Probability, random variables, PDFs, spectral density of noise.',
+        videoId: 'RD4J9pXWgO8',
         isHighROI: true
       },
       {
@@ -272,6 +289,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'Medium',
         type: 'Concept-heavy',
         description: 'Maxwells equations. Wave propagation through medium. Reflection and refraction. Transmission lines: impedance matching. Waveguides. Antennas: radiation pattern, gain.',
+        videoId: 'vITMvLIapdk',
         isHighROI: false
       }
     ]
@@ -314,6 +332,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Single phase and three phase transformers: equivalent circuits, tests, regulation. DC machines, induction machines, synchronous machines: performance, starting, speed control.',
+        videoId: '-Fwbsb5XXVg',
         isHighROI: true
       },
       {
@@ -326,6 +345,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Power generation models. Transmission line models and performance. Cable insulation. Bus admittance matrices, load flow analysis. Symmetrical & unsymmetrical fault analysis.',
+        videoId: 'I8SNZg4zXY0',
         isHighROI: true
       },
       {
@@ -338,6 +358,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Characteristics of semiconductor power devices (SCR, MOSFET, IGBT). Phase controlled rectifiers. DC-to-DC switch mode converters (Buck, Boost, Buck-Boost). Single and three-phase inverters.',
+        videoId: 'f7oXhDatwtY',
         isHighROI: false
       },
       {
@@ -350,6 +371,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Network theorems, transient response, steady state sinusoidal analysis, resonance, mutual coupled circuits, balanced three-phase circuits, two-port networks computations.',
+        videoId: 'uyvyJIPq_l0',
         isHighROI: true
       },
       {
@@ -374,6 +396,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'Medium',
         type: 'Concept-heavy',
         description: 'Coulombs Law, Electric Field Intensity, Gauss Law. Divergence, Electric potential. Biot-Savart Law, Ampere Law. Faradays Law, Maxwell equations.',
+        videoId: '8kcvyoHsXrw',
         isHighROI: false
       }
     ]
@@ -416,6 +439,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Double-advantage',
         description: 'Casting, forming, joining, machining, machine tool operations, metrology, computer integrated manufacturing. Extremely high weight section with direct formulas.',
+        videoId: 'viNr7R8JPXc',
         isHighROI: true
       },
       {
@@ -428,6 +452,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'First and second laws, entropy, availability. Vapor and gas power cycles. IC engines, refrigeration, air conditioning, steam turbine setups.',
+        videoId: '3u-MrpwcaLA',
         isHighROI: true
       },
       {
@@ -440,6 +465,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Stress and strain, elastic constants. Mohr circle. Shear force and bending moment diagrams. Deflection of beams. Torsion, columns, thin cylinders.',
+        videoId: 'j-npMBCp9oc',
         isHighROI: true
       },
       {
@@ -452,6 +478,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Fluid properties, manometry, buoyancy, continuity, Euler and Bernoulli equations. Viscous flow. Boundary layer theory. Turbo-machinery basics.',
+        videoId: '3MvRpp7WnK0',
         isHighROI: false
       },
       {
@@ -464,6 +491,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Displacement, velocity and acceleration analysis. Dynamic analysis, gyroscopes, governors, flywheels. Free and forced single degree of freedom vibrations.',
+        videoId: '44QLDixnG4g',
         isHighROI: false
       },
       {
@@ -476,6 +504,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'Medium',
         type: 'Scoring',
         description: 'Production planning and control, forecasting, inventory models, scheduling. Network analysis: PERT, CPM. Quality control, linear programming.',
+        videoId: 'tU7FdDBRVjU',
         isHighROI: true
       }
     ]
@@ -518,6 +547,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Double-advantage',
         description: 'Soil classification, three-phase relationships, permeability, effective stress, consolidation, shear strength, earth pressure theory, shallow and deep foundations.',
+        videoId: 'JoF9IZNexQQ',
         isHighROI: true
       },
       {
@@ -530,6 +560,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Water quality standards, purification systems, distribution networks. Sewage treatment: primary, secondary. Air pollution. Solid waste management.',
+        videoId: '9nuNHYkZrSQ',
         isHighROI: true
       },
       {
@@ -542,6 +573,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Geometric design of highways: sight distance, horizontal & vertical alignments. Pavement design: flexible, rigid. Traffic flow metrics, collisions.',
+        videoId: '5zKC_aq4ypM',
         isHighROI: true
       },
       {
@@ -554,6 +586,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Fluid statics, kinetics. Boundary layers. Flow in open channels: specific energy, hydraulic jump. Turbines, pumps, dimensional configurations.',
+        videoId: '3MvRpp7WnK0',
         isHighROI: false
       },
       {
@@ -566,6 +599,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Bending stress, shear stress, shear center, Mohr circle. Deflection of beams, thin cylinders, Euler-buckling of columns. Base for structural structural analysis.',
+        videoId: 'n8BmHaao4qM',
         isHighROI: true
       },
       {
@@ -578,6 +612,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'Medium',
         type: 'Scoring',
         description: 'Linear & angular measurements, compass surveying, levelling, contouring, GPS/photogrammetry basic equations. Short, scoring, concrete.',
+        videoId: 'ycZroq11es8',
         isHighROI: true
       }
     ]
@@ -618,6 +653,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Double-advantage',
         description: 'Resistive, capacitive, inductive transducers. Self-generating transducers: piezoelectric, thermoelectric. Flow, level, pressure measurement sensors.',
+        videoId: 'INEtYZqtjTo',
         isHighROI: true
       },
       {
@@ -630,6 +666,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Bridges (AC and DC) for measurement. Galvanometers, Ammeters, Voltmeters, Wattmeters. Instrument transformers. Digital oscilloscopes (DSO).',
+        videoId: 'IDwDswr6REE',
         isHighROI: true
       },
       {
@@ -683,6 +720,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Double-advantage',
         description: 'Kinetics of homogeneous reactions. Single and multiple reactor design (batch, CSTR, PFR). Non-ideal reactors. Heterogeneous catalytic steps.',
+        videoId: 'gzrLGtQgLYc',
         isHighROI: true
       },
       {
@@ -695,6 +733,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Concept-heavy',
         description: 'Ficks law, molecular diffusion. Gas absorption, distillation, extraction, drying, humidification operations. NTU/HTU column math.',
+        videoId: '7Bj3N1E7vZk',
         isHighROI: true
       },
       {
@@ -707,6 +746,7 @@ export const branchesData: BranchInfo[] = [
         practiceIntensity: 'High',
         type: 'Scoring',
         description: 'Conduction, convection and radiation. Shell and tube heat exchangers, LMTD, NTU charts. Boiling and condensation equations. Evaporations.',
+        videoId: 'S_IWeKW2JqA',
         isHighROI: true
       }
     ]

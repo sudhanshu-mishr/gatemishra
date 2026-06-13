@@ -8,6 +8,7 @@ export interface Subject {
   practiceIntensity: 'High' | 'Medium';
   type: 'Scoring' | 'Concept-heavy' | 'Double-advantage';
   description: string;
+  videoId?: string;
   isHighROI: boolean;
 }
 

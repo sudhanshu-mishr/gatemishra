@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { branchesData } from '../data/branchesData';
 import { BranchInfo, Subject } from '../types';
 import { 
-  BookOpen, Calendar, HelpCircle, AlertTriangle, Play, CheckCircle, 
+  BookOpen, Calendar, HelpCircle, AlertTriangle, Play, CheckCircle, Youtube, X,
   ChevronDown, ChevronRight, Award, Flame, Search, Layers, Clock, ShieldCheck
 } from 'lucide-react';
 
@@ -13,6 +13,8 @@ interface BranchExplorerProps {
 export default function BranchExplorer({ searchQuery }: BranchExplorerProps) {
   const [selectedBranchId, setSelectedBranchId] = useState<string>('cse');
   const [expandedSubjects, setExpandedSubjects] = useState<Record<string, boolean>>({});
+  const [selectedVideo, setSelectedVideo] = useState<{subject: string, id: string} | null>(null);
+
   const [completedSubjects, setCompletedSubjects] = useState<Record<string, boolean>>({});
 
   // Load syllabus progress on mount
@@ -227,7 +229,17 @@ export default function BranchExplorer({ searchQuery }: BranchExplorerProps) {
                           </h6>
                           <div className="flex items-center gap-2 mt-1 flex-wrap">
                             <span className="text-xs font-mono text-neutral-500 uppercase">{subject.weightage}</span>
-                            {subject.isHighROI && (
+
+                    {subject.videoId && (
+                      <button
+                        onClick={(e) => { e.stopPropagation(); setSelectedVideo({subject: subject.name, id: subject.videoId!}); }}
+                        className="flex items-center gap-1 text-xs font-medium px-2 py-1 bg-red-100 text-red-600 rounded-full hover:bg-red-200 transition-colors"
+                      >
+                        <Youtube className="w-3 h-3" />
+                        Watch Video
+                      </button>
+                    )}
+{subject.isHighROI && (
                               <span className="inline-flex items-center gap-0.5 px-1.5 py-0.2 rounded text-[10px] uppercase tracking-wide font-extrabold bg-red-50 text-red-700 dark:bg-red-950/40 dark:text-red-400">
                                 <Flame className="w-3 h-3 text-red-500" /> High ROI
                               </span>
@@ -389,7 +401,40 @@ export default function BranchExplorer({ searchQuery }: BranchExplorerProps) {
           </div>
         </div>
 
-      </div>
+
+      {/* Video Modal */}
+      {selectedVideo && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={() => setSelectedVideo(null)}>
+          <div
+            className="bg-slate-900 border border-slate-700 rounded-xl w-full max-w-4xl overflow-hidden shadow-2xl"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between p-4 border-b border-slate-800 bg-slate-800/50">
+              <h3 className="text-lg font-semibold text-white flex items-center gap-2">
+                <Youtube className="w-5 h-5 text-red-500" />
+                {selectedVideo.subject} - Free Lecture
+              </h3>
+              <button
+                onClick={() => setSelectedVideo(null)}
+                className="p-1 hover:bg-slate-700 rounded-lg text-slate-400 hover:text-white transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="relative pt-[56.25%] bg-black">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src={`https://www.youtube.com/embed/${selectedVideo.id}?autoplay=1`}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      )}
+</div>
     </div>
   );
 }
