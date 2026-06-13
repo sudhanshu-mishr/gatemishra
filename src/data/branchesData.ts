@@ -28,6 +28,54 @@ export const branchesData: BranchInfo[] = [
       'Losing marks in COA due to lack of standard instruction-level calculations and memory mapping concepts.',
       'Over-focusing on advanced programming syntax instead of algorithmic time complexities and data structures.'
     ],
+    interviewVideoId: 'M5tEUGFpCg0',
+    rankEstimates: [
+      {
+        "year": 2024,
+        "score": 88,
+        "rank": 1
+      },
+      {
+        "year": 2024,
+        "score": 83,
+        "rank": 10
+      },
+      {
+        "year": 2024,
+        "score": 76,
+        "rank": 100
+      },
+      {
+        "year": 2023,
+        "score": 90,
+        "rank": 1
+      },
+      {
+        "year": 2023,
+        "score": 85,
+        "rank": 10
+      },
+      {
+        "year": 2023,
+        "score": 78,
+        "rank": 100
+      },
+      {
+        "year": 2022,
+        "score": 87,
+        "rank": 1
+      },
+      {
+        "year": 2022,
+        "score": 82,
+        "rank": 10
+      },
+      {
+        "year": 2022,
+        "score": 74,
+        "rank": 100
+      }
+    ],
     subjects: [
       {
         name: 'Discrete Mathematics & Calculus',
@@ -187,6 +235,54 @@ export const branchesData: BranchInfo[] = [
       'Treating Electromagnetics as a pure memorization topic instead of building vectorial intuition.',
       'Ignoring OP-AMP analysis setups in Analog Circuits which contribute a guaranteed 4-6 marks.'
     ],
+    interviewVideoId: 'sF3M27K0iPA',
+    rankEstimates: [
+      {
+        "year": 2024,
+        "score": 85,
+        "rank": 1
+      },
+      {
+        "year": 2024,
+        "score": 80,
+        "rank": 10
+      },
+      {
+        "year": 2024,
+        "score": 73,
+        "rank": 100
+      },
+      {
+        "year": 2023,
+        "score": 87,
+        "rank": 1
+      },
+      {
+        "year": 2023,
+        "score": 82,
+        "rank": 10
+      },
+      {
+        "year": 2023,
+        "score": 75,
+        "rank": 100
+      },
+      {
+        "year": 2022,
+        "score": 84,
+        "rank": 1
+      },
+      {
+        "year": 2022,
+        "score": 79,
+        "rank": 10
+      },
+      {
+        "year": 2022,
+        "score": 71,
+        "rank": 100
+      }
+    ],
     subjects: [
       {
         name: 'Network Theory',
@@ -321,6 +417,54 @@ export const branchesData: BranchInfo[] = [
       'Treating power electronics simply as memorizing output voltage equations instead of solving with waveform integrations.',
       'Underweighting Electrical Measurements, which has simple, highly scoring questions.'
     ],
+    interviewVideoId: 'z2st4pnrt24',
+    rankEstimates: [
+      {
+        "year": 2024,
+        "score": 82,
+        "rank": 1
+      },
+      {
+        "year": 2024,
+        "score": 77,
+        "rank": 10
+      },
+      {
+        "year": 2024,
+        "score": 70,
+        "rank": 100
+      },
+      {
+        "year": 2023,
+        "score": 84,
+        "rank": 1
+      },
+      {
+        "year": 2023,
+        "score": 79,
+        "rank": 10
+      },
+      {
+        "year": 2023,
+        "score": 72,
+        "rank": 100
+      },
+      {
+        "year": 2022,
+        "score": 81,
+        "rank": 1
+      },
+      {
+        "year": 2022,
+        "score": 76,
+        "rank": 10
+      },
+      {
+        "year": 2022,
+        "score": 68,
+        "rank": 100
+      }
+    ],
     subjects: [
       {
         name: 'Electrical Machines',
@@ -427,6 +571,54 @@ export const branchesData: BranchInfo[] = [
       'Brushing off Industrial Engineering as trivial, which contains highly scoring deterministic algorithms like LPP and PERT/CPM.',
       'Cramming formula tables in Machine Design instead of deriving load combinations with vector equilibrium.',
       'Applying heat-transfer boundary assumptions incorrectly in multi-layered radial systems.'
+    ],
+    interviewVideoId: '-G7fDUFfmUs',
+    rankEstimates: [
+      {
+        "year": 2024,
+        "score": 86,
+        "rank": 1
+      },
+      {
+        "year": 2024,
+        "score": 81,
+        "rank": 10
+      },
+      {
+        "year": 2024,
+        "score": 74,
+        "rank": 100
+      },
+      {
+        "year": 2023,
+        "score": 88,
+        "rank": 1
+      },
+      {
+        "year": 2023,
+        "score": 83,
+        "rank": 10
+      },
+      {
+        "year": 2023,
+        "score": 76,
+        "rank": 100
+      },
+      {
+        "year": 2022,
+        "score": 85,
+        "rank": 1
+      },
+      {
+        "year": 2022,
+        "score": 80,
+        "rank": 10
+      },
+      {
+        "year": 2022,
+        "score": 72,
+        "rank": 100
+      }
     ],
     subjects: [
       {
@@ -536,6 +728,54 @@ export const branchesData: BranchInfo[] = [
       'Ignoring spatial geomatics equations (Surveying), which provide simple direct calculation points.',
       'Treating Hydrology as a theoretical pass-by without learning unit hydrograph step math.'
     ],
+    interviewVideoId: 'FVAZ5BPCha8',
+    rankEstimates: [
+      {
+        "year": 2024,
+        "score": 89,
+        "rank": 1
+      },
+      {
+        "year": 2024,
+        "score": 84,
+        "rank": 10
+      },
+      {
+        "year": 2024,
+        "score": 77,
+        "rank": 100
+      },
+      {
+        "year": 2023,
+        "score": 91,
+        "rank": 1
+      },
+      {
+        "year": 2023,
+        "score": 86,
+        "rank": 10
+      },
+      {
+        "year": 2023,
+        "score": 79,
+        "rank": 100
+      },
+      {
+        "year": 2022,
+        "score": 88,
+        "rank": 1
+      },
+      {
+        "year": 2022,
+        "score": 83,
+        "rank": 10
+      },
+      {
+        "year": 2022,
+        "score": 75,
+        "rank": 100
+      }
+    ],
     subjects: [
       {
         name: 'Geotechnical Engineering',
@@ -642,6 +882,54 @@ export const branchesData: BranchInfo[] = [
       'Ignoring optical fiber components in communication modules.',
       'Confusing dynamic sensor characteristics with static specifications during parameter mapping.'
     ],
+    interviewVideoId: 'M5tEUGFpCg0',
+    rankEstimates: [
+      {
+        "year": 2024,
+        "score": 78,
+        "rank": 1
+      },
+      {
+        "year": 2024,
+        "score": 73,
+        "rank": 10
+      },
+      {
+        "year": 2024,
+        "score": 66,
+        "rank": 100
+      },
+      {
+        "year": 2023,
+        "score": 80,
+        "rank": 1
+      },
+      {
+        "year": 2023,
+        "score": 75,
+        "rank": 10
+      },
+      {
+        "year": 2023,
+        "score": 68,
+        "rank": 100
+      },
+      {
+        "year": 2022,
+        "score": 77,
+        "rank": 1
+      },
+      {
+        "year": 2022,
+        "score": 72,
+        "rank": 10
+      },
+      {
+        "year": 2022,
+        "score": 64,
+        "rank": 100
+      }
+    ],
     subjects: [
       {
         name: 'Sensors & Industrial Instrumentation',
@@ -708,6 +996,54 @@ export const branchesData: BranchInfo[] = [
     mistakes: [
       'Underestimating process control dynamics and tuning coefficients.',
       'Treating Chemical Technology as a literal theoretical dump without drawing flowcharts of process setups like urea/ammonia synthetic passes.'
+    ],
+    interviewVideoId: 'qFEX61oRBgQ',
+    rankEstimates: [
+      {
+        "year": 2024,
+        "score": 80,
+        "rank": 1
+      },
+      {
+        "year": 2024,
+        "score": 75,
+        "rank": 10
+      },
+      {
+        "year": 2024,
+        "score": 68,
+        "rank": 100
+      },
+      {
+        "year": 2023,
+        "score": 82,
+        "rank": 1
+      },
+      {
+        "year": 2023,
+        "score": 77,
+        "rank": 10
+      },
+      {
+        "year": 2023,
+        "score": 70,
+        "rank": 100
+      },
+      {
+        "year": 2022,
+        "score": 79,
+        "rank": 1
+      },
+      {
+        "year": 2022,
+        "score": 74,
+        "rank": 10
+      },
+      {
+        "year": 2022,
+        "score": 66,
+        "rank": 100
+      }
     ],
     subjects: [
       {
