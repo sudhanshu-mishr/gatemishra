@@ -24,6 +24,8 @@ export interface BranchInfo {
   beginnerStrategy: string;
   mistakes: string[];
   subjects: Subject[];
+  interviewVideoId?: string;
+  rankEstimates?: { year: number; score: number; rank: number }[];
 }
 
 export interface StudyPhase {

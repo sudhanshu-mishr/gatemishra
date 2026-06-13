@@ -3,7 +3,7 @@ import { branchesData } from '../data/branchesData';
 import { BranchInfo, Subject } from '../types';
 import { 
   BookOpen, Calendar, HelpCircle, AlertTriangle, Play, CheckCircle, Youtube, X,
-  ChevronDown, ChevronRight, Award, Flame, Search, Layers, Clock, ShieldCheck
+  ChevronDown, ChevronRight, Award, Flame, Search, Layers, Clock, ShieldCheck, Trophy
 } from 'lucide-react';
 
 interface BranchExplorerProps {
@@ -374,6 +374,48 @@ export default function BranchExplorer({ searchQuery }: BranchExplorerProps) {
                 {branch.beginnerStrategy}
               </p>
             </div>
+          </div>
+
+
+          {/* Topper & Rank Data */}
+          <div className="p-6 mb-6 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-2xl md:shadow-sm">
+            <div className="flex items-center justify-between mb-4">
+              <h5 className="font-bold text-neutral-900 dark:text-neutral-100 text-sm tracking-tight flex items-center gap-2">
+                <Trophy className="w-5 h-5 text-yellow-500" /> Top Rankers & Ranks
+              </h5>
+              {branch.interviewVideoId && (
+                <button
+                  onClick={() => setSelectedVideo({subject: "Topper Interview", id: branch.interviewVideoId!})}
+                  className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 bg-red-100 text-red-600 rounded-lg hover:bg-red-200 transition-colors"
+                >
+                  <Youtube className="w-4 h-4" />
+                  Watch Interview
+                </button>
+              )}
+            </div>
+
+            {branch.rankEstimates && branch.rankEstimates.length > 0 && (
+              <div className="overflow-x-auto">
+                <table className="w-full text-xs text-left">
+                  <thead className="text-[10px] text-neutral-500 uppercase bg-neutral-50 dark:bg-neutral-800/50 dark:text-neutral-400">
+                    <tr>
+                      <th className="px-3 py-2 rounded-l-lg">Year</th>
+                      <th className="px-3 py-2">Score</th>
+                      <th className="px-3 py-2 rounded-r-lg">Rank</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {branch.rankEstimates.map((est, idx) => (
+                      <tr key={idx} className="border-b border-neutral-100 dark:border-neutral-800 last:border-0">
+                        <td className="px-3 py-2 font-medium text-neutral-900 dark:text-neutral-200">{est.year}</td>
+                        <td className="px-3 py-2 text-indigo-600 dark:text-indigo-400 font-bold">{est.score}</td>
+                        <td className="px-3 py-2">AIR {est.rank}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
           </div>
 
           {/* Quick Stats banner */}
